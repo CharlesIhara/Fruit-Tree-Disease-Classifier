@@ -158,7 +158,7 @@ const App = () => {
         source={{uri: 'background'}}
         style={{height: height, width: width}}
       />
-      <Text style={styles.title}>{'Potato Disease \nPrediction App'}</Text>
+      <Text style={styles.title}>{'Fruit Tree Disease \nClassification App'}</Text>
       <TouchableOpacity onPress={clearOutput} style={styles.clearStyle}>
         <Image source={{uri: 'clean'}} style={styles.clearImage} />
       </TouchableOpacity>
@@ -182,7 +182,7 @@ const App = () => {
       )) ||
         (image && <Text style={styles.emptyText}>{label}</Text>) || (
           <Text style={styles.emptyText}>
-            Use below buttons to select a picture of a potato plant leaf.
+            Use below buttons to select a picture of a plant leaf.
           </Text>
         )}
       <View style={styles.btn}>
