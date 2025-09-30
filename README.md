@@ -1,5 +1,9 @@
 # Fruit Tree Disease Classification
 
+## CREDIT
+
+This project is variation of the project tutorial made by CodeBasics on Youtube. Much of their code was used as a template for this project. Here is their project repository: https://github.com/codebasics/potato-disease-classification
+
 ## OVERVIEW
 
 I trained a convolutional neural network model using tensorflow to identify diseases from images of plant leaves. THe model was trained using 9,440 images of plant leaves (1,152 for validation, 1,204 for testing). The images consisted of the following crop-disease combinations:
