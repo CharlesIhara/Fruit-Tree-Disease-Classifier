@@ -1,0 +1,5 @@
+tensorflow==2.16.2
+Pillow
+google-cloud-storage
+numpy==1.26.4
+flask

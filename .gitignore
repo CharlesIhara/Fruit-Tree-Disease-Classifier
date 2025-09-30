@@ -1,0 +1,15 @@
+# venv
+venv/
+
+# Node modules
+node_modules/
+
+# IDEs
+.idea/
+
+# Misc
+.DS_Store
+
+# dataset too large to push via CLI
+raw/
+Test\ Images/
